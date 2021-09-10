@@ -1,5 +1,48 @@
+/*Adding space under navigation bar so picture dosen't go under the bar*/
+body::before {
+    display: block;
+    content: "";
+    height: 60px;
+}
+
 @media(min-width: 768px) {
     .news-input {
         width: 50%;
     }
+}
+
+/*Overwriting the Bootstrap color with a new one*/
+.navbar {
+    background-color: rgb(253, 214, 15);
+}
+.navbar-brand {
+    color: rgb(107, 88, 65);
+    font-size: 25px;
+}
+
+.nav-link {
+    color: rgb(107, 88, 65);
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 0px;
+
+}
+.card {
+    border: none;
+    background-color: rgb(253, 214, 15);
+    color: rgb(107, 88, 65);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.p-1 {
+    background-color: white;
+}
+.p-5 {
+    background-color: rgb(216, 208, 197);
+    color: white;
+}
+
+.container {
+    margin: bottom 1px;
 }
