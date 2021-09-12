@@ -1,3 +1,5 @@
+
+
 /*Adding space under navigation bar so picture dosen't go under the bar*/
 body::before {
     display: block;
@@ -17,12 +19,19 @@ body::before {
 }
 .navbar-brand {
     color: rgb(255, 202, 13);
-    font-size: 28px;
+    font-size: 22px;
+}
+.navbar-brand:hover{
+    color: rgb(107, 88, 65);
+}
+
+.nav-link:hover{
+    color:rgb(107, 88, 65);
 }
 
 .nav-link {
     color: rgb(255, 202, 13);
-    font-size: 22px;
+    font-size: 18px;
     margin-left: 20px;
     margin-right: 0px;
 
@@ -56,6 +65,9 @@ body::before {
     margin: bottom 1px;
 }
 
-.started {
-    background-color:teal;
+.img-fluid {
+    max-width: 15cm;
+    max-height: 15cm;
+    margin-left: 2cm;
+    margin-right: 0cm;
 }
